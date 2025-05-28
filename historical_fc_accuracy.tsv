@@ -1,0 +1,5 @@
+year	month	day	obs_temp	fc_temp	accuracy	accuracy_range
+
+#create this file with headers
+#be aligned with the date the forecast is for
+#the date will be in the same row as the observed temperature for that date, rather than the previous row on the day that the forecast was made
