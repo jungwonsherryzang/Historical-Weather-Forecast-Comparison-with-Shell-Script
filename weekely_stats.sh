@@ -2,6 +2,7 @@
 
 #download the synthetic historical forecasting accuracy dataset
 #wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-LX0117EN-Coursera/labs/synthetic_historical_fc_accuracy.tsv
+#saved in synthetic_historical_fc_accuracy.tsv
 
 #extract last 7 data from tsv file
 echo $(tail -7 synthetic_historical_fc_accuracy.tsv  | cut -f6) > scratch.txt
