@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#assign ciry name
+#assign city name
 city=Casablanca
 
 #obtain the weather information
@@ -26,3 +26,5 @@ year=$(TZ='Morocco/Casablanca' data +%Y)
 #log the weather
 record=$(echo -e "$year\t$month\t$day\t$obs_temp\t$fc_temp C")
 echo $record>>rx_poc.log
+
+#This file is for POC weather report log file, or a text file which contains a growing history of the daily weather data you will scrape
